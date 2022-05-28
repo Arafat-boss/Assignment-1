@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-color{
+    background-color: rgba(193, 228, 249, 0.696);
+}
+.row{
+    padding-left: 25px;
+}
+.row p{
+    font-size: 16px;
+    color: gray;
+    text-align: justify;
+}
+.slider-btn{
+    color: #fff;
+    padding: 10px 18px;
+    background-image: linear-gradient(rgb(246, 60, 60),rgb(242, 171, 171));
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+}
+.back{
+    margin-left: 10px;
+    background-color: rgba(235, 251, 246, 0.87);
+    /* padding: 40px; */
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    align-items: center;
+    transition: 1s;
+}
+.card:hover{
+    background-color: rgb(221, 236, 255);
+    border-radius: 50px;
+}
+.card-img-top{
+    border-radius: 50px;
+}
+.courses-btn{
+    background-color: rgb(188, 255, 233);
+    border: none;
+    padding: 8px 18px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.courses-btn:hover{
+    background-color: rgb(255, 169, 83);
+    color: #fff;
+}
+.row i{
+    font-size: 15px;
+    color: lightslategrey;
+}
+.row p{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 200;
+}
+#footer-text p{
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
